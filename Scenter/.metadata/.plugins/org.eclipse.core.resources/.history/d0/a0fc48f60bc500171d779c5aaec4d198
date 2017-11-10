@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="salesForceRquestPropertySequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log level="full" separator=","/>
+    <salesforcerest.getBlobBodyForDocumentRecord configKey="saleforceInit">
+        <documentId>{$ctx:documentId}</documentId>
+    </salesforcerest.getBlobBodyForDocumentRecord>
+    <log level="full" separator=","/>
+    <respond/>
+</sequence>

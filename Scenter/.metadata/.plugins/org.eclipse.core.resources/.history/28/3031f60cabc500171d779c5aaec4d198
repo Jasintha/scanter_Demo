@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="GetToken" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property description="id" expression="json-eval($.id)" name="id" scope="default" type="STRING"/>
+    <property description="clientId" expression="json-eval($.clientId)" name="clientId" scope="default" type="STRING"/>
+    <property description="clientSecret" expression="json-eval($.clientSecret)" name="clientSecret" scope="default" type="STRING"/>
+    <property description="redirectUri" expression="json-eval($.redirectUri)" name="redirectUri" scope="default" type="STRING"/>
+    <property description="resource" expression="json-eval($.resource)" name="resource" scope="default" type="STRING"/>
+    <property description="code" expression="json-eval($.code)" name="code" scope="default" type="STRING"/>
+    <property description="apiUrl" expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property description="type" expression="json-eval($.type)" name="type" scope="default" type="STRING"/>
+    <property description="serverRelativeUrl" expression="json-eval($.serverRelativeUrl)" name="serverRelativeUrl" scope="default" type="STRING"/>
+    <property description="blocking" expression="json-eval($.blocking)" name="blocking" scope="default" type="STRING"/>
+    <property description="folderName" expression="json-eval($.folderName)" name="folderName" scope="default" type="STRING"/>
+    <property description="overwrite" expression="json-eval($.overwrite)" name="overwrite" scope="default" type="STRING"/>
+    <property description="fileName" expression="json-eval($.fileName)" name="fileName" scope="default" type="STRING"/>
+    <property description="fileContent" expression="json-eval($.fileContent)" name="fileContent" scope="default" type="STRING"/>
+    <sharepoint.getAccessTokenFromAutherizationCode>
+        <resource>{$ctx:resource}</resource>
+        <code>{$ctx:code}</code>
+        <clientId>{$ctx:clientId}</clientId>
+        <clientSecret>{$ctx:clientSecret}</clientSecret>
+        <id>{$ctx:id}</id>
+        <redirectUri>{$ctx:redirectUri}</redirectUri>
+    </sharepoint.getAccessTokenFromAutherizationCode>
+    <respond/>
+</sequence>

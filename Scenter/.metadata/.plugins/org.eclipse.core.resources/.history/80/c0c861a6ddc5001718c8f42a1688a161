@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SharePointIntegration" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <sharepoint.createFileWithinFolder configKey="SharepointInit">
+        <folderName>{$ctx:folderName}</folderName>
+        <overwrite>{$ctx:overwrite}</overwrite>
+        <fileName>{$ctx:fileName}</fileName>
+        <fileContent>{$ctx:fileContent}</fileContent>
+    </sharepoint.createFileWithinFolder>
+    <sharepoint.getFile configKey="SharepointInit">
+        <folderPath>{$ctx:folderName}</folderPath>
+        <fileName>{$ctx:fileName}</fileName>
+    </sharepoint.getFile>
+    <respond/>
+</sequence>

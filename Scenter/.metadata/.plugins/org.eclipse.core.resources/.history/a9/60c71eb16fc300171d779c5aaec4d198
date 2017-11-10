@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry xmlns="http://ws.apache.org/ns/synapse" key="SharepointInit">
+	"<sharepoint.init xmlns="http://ws.apache.org/ns/synapse">
+        <apiUrl>https://lasindu.sharepoint.com</apiUrl>
+        <accessToken>xxxxxxxxxxxxxxx</accessToken>
+        <id>f196272c-ab7d-4693-af54-499dac8e7501</id>
+        <clientId>453367af-6558-4e1e-83b8-1b17ad290967@f196272c-ab7d-4693-af54-499dac8e7501</clientId>
+        <clientSecret>xxxxxxxxxxxxx</clientSecret>
+        <refreshToken>xxxxx</refreshToken>
+        <redirectUri>https://localhost/</redirectUri>
+        <resource>00000003-0000-0ff1-ce00-000000000000/lasindu.sharepoint.com@f196272c-ab7d-4693-af54-499dac8e7501</resource>
+        <blocking>true</blocking>
+        <registryPath>connector/sharepoint</registryPath>
+        <intervalTime>120000</intervalTime>
+</sharepoint.init>"
+</localEntry>

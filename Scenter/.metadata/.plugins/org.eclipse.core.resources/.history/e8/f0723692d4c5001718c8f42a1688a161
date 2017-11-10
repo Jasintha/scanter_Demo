@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="sharepointRequestProperties" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property description="id" expression="json-eval($.sid)" name="id" scope="default" type="STRING"/>
+    <property description="clientId" expression="json-eval($.sclientId)" name="clientId" scope="default" type="STRING"/>
+    <property description="clientSecret" expression="json-eval($.sclientSecret)" name="clientSecret" scope="default" type="STRING"/>
+    <property description="redirectUri" expression="json-eval($.sredirectUri)" name="redirectUri" scope="default" type="STRING"/>
+    <property description="resource" expression="json-eval($.sresource)" name="resource" scope="default" type="STRING"/>
+    <property description="code" expression="json-eval($.scode)" name="code" scope="default" type="STRING"/>
+    <property description="apiUrl" expression="json-eval($.sapiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property description="type" expression="json-eval($.stype)" name="type" scope="default" type="STRING"/>
+    <property description="serverRelativeUrl" expression="json-eval($.sserverRelativeUrl)" name="serverRelativeUrl" scope="default" type="STRING"/>
+    <property description="blocking" expression="json-eval($.sblocking)" name="blocking" scope="default" type="STRING"/>
+    <property description="folderName" expression="json-eval($.folderName)" name="folderName" scope="default" type="STRING"/>
+    <property description="overwrite" expression="json-eval($.overwrite)" name="overwrite" scope="default" type="STRING"/>
+    <property description="fileName" expression="json-eval($.fileName)" name="fileName" scope="default" type="STRING"/>
+    <property description="fileContent" expression="json-eval($.fileContent)" name="fileContent" scope="default" type="STRING"/>
+    <property description="refreshToken" expression="json-eval($.srefresh_token)" name="refreshToken" scope="default" type="STRING"/>
+    <property description="accessToken" expression="json-eval($.saccess_token)" name="accessToken" scope="default" type="STRING"/>
+</sequence>

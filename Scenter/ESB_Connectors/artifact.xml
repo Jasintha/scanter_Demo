@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="bigquery-connector" groupId="com.example.ESB_Connectors.lib" version="1.0.6" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>bigquery-connector-1.0.6.zip</file>
+    </artifact>
+    <artifact name="salesforce-connector" groupId="com.example.ESB_Connectors.lib" version="2.0.1" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>salesforce-connector-2.0.1.zip</file>
+    </artifact>
+    <artifact name="sharepoint-connector" groupId="com.example.ESB_Connectors.lib" version="1.0.3" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>sharepoint-connector-1.0.3.zip</file>
+    </artifact>
+    <artifact name="salesforcerest-connector" groupId="com.example.ESB_Connectors.lib" version="1.0.4" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>salesforcerest-connector-1.0.4.zip</file>
+    </artifact>
+</artifacts>

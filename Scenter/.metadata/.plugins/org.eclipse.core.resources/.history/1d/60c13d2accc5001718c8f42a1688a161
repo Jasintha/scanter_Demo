@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="saleforceIntegration" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <sequence key="salesForceRquestPropertySequence"/>
+    <log level="full" separator=","/>
+    <salesforcerest.getBlobBodyForDocumentRecord configKey="saleforceInit">
+        <documentId>{$ctx:documentId}</documentId>
+    </salesforcerest.getBlobBodyForDocumentRecord>
+    <log>
+        <property expression="json-eval($.)" name="JSON-Payload"/>
+    </log>
+    <respond/>
+</sequence>

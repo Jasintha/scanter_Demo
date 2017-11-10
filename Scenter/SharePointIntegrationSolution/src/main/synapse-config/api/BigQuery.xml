@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/bigquery" name="BigQuery" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST GET">
+        <inSequence>
+            <sequence key="BigQueryIntegration"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

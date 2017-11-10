@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="SharepointInit" xmlns="http://ws.apache.org/ns/synapse">
+    <sharepoint.init>
+        <apiUrl>https://jasintha.sharepoint.com</apiUrl>
+        <accessToken>eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJLVmN1enFBaWRPTHFXU2FvbDd3Z0ZSR0NZbyIsImtpZCI6IjJLVmN1enFBaWRPTHFXU2FvbDd3Z0ZSR0NZbyJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvamFzaW50aGEuc2hhcmVwb2ludC5jb21AMzA2MGY1NjUtYTNkNC00NGFiLWE0MTEtMWQyYzUyNTkyZmJjIiwiaXNzIjoiMDAwMDAwMDEtMDAwMC0wMDAwLWMwMDAtMDAwMDAwMDAwMDAwQDMwNjBmNTY1LWEzZDQtNDRhYi1hNDExLTFkMmM1MjU5MmZiYyIsImlhdCI6MTUxMDA5NDg5OCwibmJmIjoxNTEwMDk0ODk4LCJleHAiOjE1MTAwOTg3OTgsImFjdG9yIjoiMTJlNzU4NTUtYzE3OS00MGVmLWEzMzYtMWFlMjI5ZTAyYzQwQDMwNjBmNTY1LWEzZDQtNDRhYi1hNDExLTFkMmM1MjU5MmZiYyIsImlkZW50aXR5cHJvdmlkZXIiOiJ1cm46ZmVkZXJhdGlvbjptaWNyb3NvZnRvbmxpbmUiLCJuYW1laWQiOiIxMDAzQkZGREE1RUQ0QzM5In0.e9YWX9GT8UxF8tu1l0GhICsn9DZ0TFuPGnyZGPJ2sGy8DyrLZIyyG82psj2HHaTIgvnMo0a9cZlixvXQiVuiP43RyPRfJEHph5vtCBdEpjh8nloxkPYMnoFCI8XWcG6PIOEjWLgReXovSa33xLswcmyb0y7krrCXQ0LnhOc1iF1piveZ4_4ngAv3RQJ0dCYAJX6eBjUXcpIc_xmWICSJlal0cCzCItuLpreLTNBdLlFeAM3YWR21UBRXGuu2PKvdjznVO2umtuNOyxi4yqF7jSAm-w5ieGasoJXWbMPdQzXrshDbnlDbB09lbDdgzhmfbEb4Dw8Tnm8kFVNEBOjIkA</accessToken>
+        <id>3060f565-a3d4-44ab-a411-1d2c52592fbc</id>
+        <clientId>12e75855-c179-40ef-a336-1ae229e02c40@3060f565-a3d4-44ab-a411-1d2c52592fbc</clientId>
+        <clientSecret>CnzyJ/iGSiXTArDt1wbKn0UfLAt/7K75jh4YmE5F9eQ=</clientSecret>
+        <refreshToken>IAAAAOtBns2gleLiTxGpRxZlbUjMzFIs-h-LoyaQdFqjSwOdM_tExkFJlfvEQ-rQ4JVXgGlckpGMRZZr9gfQK9cgWeZJXJWAkLKbRKj-RjyIuaBBTpVs26X-4hXI6H27iYgk13AhQuyevge654ZMDZOKhluiGAgXVMsDtyyTNQreA2tU1prziGRDolI3ljm-b8WHSljo9hU3cCG98U9C1AAX554khdeP4ADGZQ4F2veXJSrvrcw42koDm3Ld0NcUSVCvxRhO_Q2IIIROPG08WJWDNGlWUH6yEDyFSMQPxGnJM4dgoE5ygCpYCXum_NxomiyczXC5AMJ0g1Dqf_Aq0ggW8n4</refreshToken>
+        <redirectUri>https://localhost/</redirectUri>
+        <resource>00000003-0000-0ff1-ce00-000000000000/jasintha.sharepoint.com@3060f565-a3d4-44ab-a411-1d2c52592fbc</resource>
+        <blocking>true</blocking>
+        <registryPath>connector/sharepoint</registryPath>
+        <intervalTime>120000</intervalTime>
+    </sharepoint.init>
+</localEntry>

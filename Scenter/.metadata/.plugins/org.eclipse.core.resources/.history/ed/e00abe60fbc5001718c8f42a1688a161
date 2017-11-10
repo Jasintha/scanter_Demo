@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="BigQueryIntegration" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientId)" name="clientId" scope="default" type="STRING"/>
+    <property expression="json-eval($.authorizationCode)" name="authorizationCode" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientSecret)" name="clientSecret" scope="default" type="STRING"/>
+    <property expression="json-eval($.registryPath)" name="registryPath" scope="default" type="STRING"/>
+    <property expression="json-eval($.redirectUrl)" name="redirectUrl" scope="default" type="STRING"/>
+    <bigquery.getAccessTokenFromAuthorizationCode>
+        <apiUrl>{$ctx:apiUrl}</apiUrl>
+        <authorizationCode>{$ctx:authorizationCode}</authorizationCode>
+        <redirectUrl>{$ctx:redirectUrl}</redirectUrl>
+        <clientId>{$ctx:clientId}</clientId>
+        <clientSecret>{$ctx:clientSecret}</clientSecret>
+        <registryPath>{$ctx:registryPath}</registryPath>
+    </bigquery.getAccessTokenFromAuthorizationCode>
+    <respond/>
+</sequence>

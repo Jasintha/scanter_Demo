@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="BigQueryInit" xmlns="http://ws.apache.org/ns/synapse">
+    <bigquery.init>
+        <apiUrl>{$ctx:apiUrl}</apiUrl>
+        <accessToken>{$ctx:accessToken}</accessToken>
+        <clientSecret>{$ctx:clientSecret}</clientSecret>
+        <clientId>{$ctx:clientId}</clientId>
+        <refreshToken>{$ctx:refreshToken}</refreshToken>
+        <registryPath>{$ctx:registryPath}</registryPath>
+        <fields>{$ctx:fields}</fields>
+        <prettyPrint>{$ctx:prettyPrint}</prettyPrint>
+        <quotaUser>{$ctx:quotaUser}</quotaUser>
+        <userIp>{$ctx:userIp}</userIp>
+    </bigquery.init>
+</localEntry>

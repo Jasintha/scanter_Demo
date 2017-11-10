@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="SharepointInit" xmlns="http://ws.apache.org/ns/synapse">
+    <sharepoint.init>
+        <apiUrl>{$ctx:apiUrl}</apiUrl>
+        <accessToken>{$ctx:accessToken}</accessToken>
+        <id>{$ctx:id}</id>
+        <clientId>{$ctx:clientId}</clientId>
+        <clientSecret>{$ctx:clientSecret}</clientSecret>
+        <refreshToken>{$ctx:refreshToken}</refreshToken>
+        <redirectUri>{$ctx:redirectUri}</redirectUri>
+        <resource>{$ctx:resource}</resource>
+        <registryPath>{$ctx:registryPath}</registryPath>
+        <intervalTime>{$ctx:intervalTime}</intervalTime>
+        <blocking>{$ctx:blocking}</blocking>
+    </sharepoint.init>
+</localEntry>

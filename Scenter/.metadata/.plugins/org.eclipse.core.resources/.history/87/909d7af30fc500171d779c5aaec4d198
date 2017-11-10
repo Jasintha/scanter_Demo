@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SharePointIntegration" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <sequence key="sharepointRequestProperties"/>
+    <sharepoint.createFolder configKey="SharepointInit">
+        <type>SP.Folder</type>
+        <serverRelativeUrl>/Shared Documents/myfolder2</serverRelativeUrl>
+    </sharepoint.createFolder>
+    <respond/>
+</sequence>
