@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="SharePointIntegration" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SharePointIntegration.xml</file>
+    </artifact>
+    <artifact name="SharepointInit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/SharepointInit.xml</file>
+    </artifact>
+    <artifact name="fileservice" groupId="com.example.SharePointIntegrationSolution.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/fileservice.xml</file>
+    </artifact>
+    <artifact name="FileTransperService" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/FileTransperService.xml</file>
+    </artifact>
+    <artifact name="saleforceInit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/saleforceInit.xml</file>
+    </artifact>
+    <artifact name="SaleforceAPI" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SaleforceAPI.xml</file>
+    </artifact>
+    <artifact name="saleforceIntegration" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/saleforceIntegration.xml</file>
+    </artifact>
+    <artifact name="salesForceRquestPropertySequence" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/salesForceRquestPropertySequence.xml</file>
+    </artifact>
+    <artifact name="sharepointRequestProperties" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/sharepointRequestProperties.xml</file>
+    </artifact>
+    <artifact name="getFileFromSharePoint" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/getFileFromSharePoint.xml</file>
+    </artifact>
+    <artifact name="saleforceTosharepoint" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/saleforceTosharepoint.xml</file>
+    </artifact>
+    <artifact name="GetToken" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GetToken.xml</file>
+    </artifact>
+    <artifact name="BigQueryIntegration" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/BigQueryIntegration.xml</file>
+    </artifact>
+    <artifact name="BigQuery" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/BigQuery.xml</file>
+    </artifact>
+    <artifact name="BigQueryGetTokenFromCode" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/BigQueryGetTokenFromCode.xml</file>
+    </artifact>
+    <artifact name="BigQueryInit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/BigQueryInit.xml</file>
+    </artifact>
+</artifacts>

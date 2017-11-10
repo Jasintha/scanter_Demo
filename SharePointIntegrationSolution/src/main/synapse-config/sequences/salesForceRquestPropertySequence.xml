@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="salesForceRquestPropertySequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="json-eval($.accessToken)" name="accessToken" scope="default" type="STRING"/>
+    <property expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property expression="json-eval($.sObjectName)" name="sObjectName" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientId)" name="clientId" scope="default" type="STRING"/>
+    <property expression="json-eval($.refreshToken)" name="refreshToken" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientSecret)" name="clientSecret" scope="default" type="STRING"/>
+    <property expression="json-eval($.hostName)" name="hostName" scope="default" type="STRING"/>
+    <property expression="json-eval($.apiVersion)" name="apiVersion" scope="default" type="STRING"/>
+    <property expression="json-eval($.registryPath)" name="registryPath" scope="default" type="STRING"/>
+    <property expression="json-eval($.intervalTime)" name="intervalTime" scope="default" type="STRING"/>
+    <property expression="json-eval($.documentId)" name="documentId" scope="default" type="STRING"/>
+    <sequence key="sharepointRequestProperties"/>
+</sequence>
