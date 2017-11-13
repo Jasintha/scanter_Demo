@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SharePointAcessTokenFromRefreshToken" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <sequence key="sharepointRequestProperties"/>
+    <sharepoint.getAccessTokenFromRefreshToken>
+        <resource>{$ctx:sresource}</resource>
+        <refreshToken>{$ctx:srefreshToken}</refreshToken>
+        <clientId>{$ctx:sclientId}</clientId>
+        <clientSecret>{$ctx:sclientSecret}</clientSecret>
+        <id>{$ctx:sid}</id>
+        <redirectUri>{$ctx:sredirectUri}</redirectUri>
+    </sharepoint.getAccessTokenFromRefreshToken>
+    <respond/>
+</sequence>

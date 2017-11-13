@@ -2,7 +2,7 @@
 <api context="/sharepoint" name="FileTransperService" xmlns="http://ws.apache.org/ns/synapse">
     <resource methods="POST GET">
         <inSequence>
-            <sequence key="GetToken"/>
+            <sequence key="SharePointAcessTokenFromRefreshToken"/>
         </inSequence>
         <outSequence/>
         <faultSequence/>

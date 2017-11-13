@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<api context="/bigquery" name="BigQuery" xmlns="http://ws.apache.org/ns/synapse">
+<api context="/push" name="pubsubRecivingApi" xmlns="http://ws.apache.org/ns/synapse">
     <resource methods="POST GET">
         <inSequence>
-            <sequence key="BigQueryGetTokenFromRefreshToken"/>
+            <sequence key="pubsubpushfromcloud"/>
         </inSequence>
         <outSequence/>
         <faultSequence/>

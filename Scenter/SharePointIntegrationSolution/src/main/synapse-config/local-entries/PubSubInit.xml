@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localEntry key="PubSubInit" xmlns="http://ws.apache.org/ns/synapse">
+    <googlepubsub.init>
+        <accessToken>{$ctx:accessToken}</accessToken>
+        <clientId>{$ctx:clientId}</clientId>
+        <clientSecret>{$ctx:clientSecret}</clientSecret>
+        <refreshToken>{$ctx:refreshToken}</refreshToken>
+        <apiUrl>{$ctx:apiUrl}</apiUrl>
+        <apiVersion>{$ctx:apiVersion}</apiVersion>
+    </googlepubsub.init>
+</localEntry>

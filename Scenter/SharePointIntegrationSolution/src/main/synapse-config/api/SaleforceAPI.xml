@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/salesforce" name="SaleforceAPI" xmlns="http://ws.apache.org/ns/synapse">
-    <resource methods="POST GET">
+    <resource methods="POST GET" url-mapping="/read/document">
         <inSequence>
             <sequence key="saleforceIntegration"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST GET" uri-template="/create/{sObjectName}/{fieldAndValue}">
+        <inSequence>
+            <sequence key="SaleForceCreateDocument"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST PUT GET" url-mapping="/update">
+        <inSequence>
+            <sequence key="saleforceUpdateDocument"/>
         </inSequence>
         <outSequence/>
         <faultSequence/>

@@ -47,4 +47,34 @@
     <artifact name="BigQueryInit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/local-entries/BigQueryInit.xml</file>
     </artifact>
+    <artifact name="BigQueryGetTokenFromRefreshToken" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/BigQueryGetTokenFromRefreshToken.xml</file>
+    </artifact>
+    <artifact name="SharePointAcessTokenFromRefreshToken" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SharePointAcessTokenFromRefreshToken.xml</file>
+    </artifact>
+    <artifact name="PubSubCreateTopic" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/PubSubCreateTopic.xml</file>
+    </artifact>
+    <artifact name="PubSubInit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/PubSubInit.xml</file>
+    </artifact>
+    <artifact name="PubSubAPI" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/PubSubAPI.xml</file>
+    </artifact>
+    <artifact name="PubsubPushSubcribe" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/PubsubPushSubcribe.xml</file>
+    </artifact>
+    <artifact name="pubsubpushfromcloud" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/pubsubpushfromcloud.xml</file>
+    </artifact>
+    <artifact name="pubsubRecivingApi" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/pubsubRecivingApi.xml</file>
+    </artifact>
+    <artifact name="SaleForceCreateDocument" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/SaleForceCreateDocument.xml</file>
+    </artifact>
+    <artifact name="saleforceUpdateDocument" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/saleforceUpdateDocument.xml</file>
+    </artifact>
 </artifacts>

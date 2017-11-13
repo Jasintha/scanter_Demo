@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="PubSubCreateTopic" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="json-eval($.accessToken)" name="accessToken" scope="default" type="STRING"/>
+    <property expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientId)" name="clientId" scope="default" type="STRING"/>
+    <property expression="json-eval($.refreshToken)" name="refreshToken" scope="default" type="STRING"/>
+    <property expression="json-eval($.clientSecret)" name="clientSecret" scope="default" type="STRING"/>
+    <property expression="json-eval($.registryPath)" name="registryPath" scope="default" type="STRING"/>
+    <property expression="json-eval($.projectId)" name="projectId" scope="default" type="STRING"/>
+    <property expression="json-eval($.topicName)" name="topicName" scope="default" type="STRING"/>
+    <property expression="json-eval($.apiVersion)" name="apiVersion" scope="default" type="STRING"/>
+    <googlepubsub.createTopic configKey="PubSubInit">
+        <projectId>{$ctx:projectId}</projectId>
+        <topicName>{$ctx:topicName}</topicName>
+    </googlepubsub.createTopic>
+    <respond/>
+</sequence>

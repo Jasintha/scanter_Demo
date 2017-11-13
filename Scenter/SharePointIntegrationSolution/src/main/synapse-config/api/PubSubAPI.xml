@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/pubsub" name="PubSubAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST GET" url-mapping="/create">
+        <inSequence>
+            <sequence key="PubSubCreateTopic"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="POST GET" url-mapping="/subscribe">
+        <inSequence>
+            <sequence key="PubsubPushSubcribe"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

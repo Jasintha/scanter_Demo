@@ -11,4 +11,7 @@
     <artifact name="salesforcerest-connector" groupId="com.example.ESB_Connectors.lib" version="1.0.4" type="synapse/lib" serverRole="EnterpriseServiceBus">
         <file>salesforcerest-connector-1.0.4.zip</file>
     </artifact>
+    <artifact name="googlepubsub-connector-1.0.0" groupId="com.example.ESB_Connectors.lib" version="SNAPSHOT" type="synapse/lib" serverRole="EnterpriseServiceBus">
+        <file>googlepubsub-connector-1.0.0-SNAPSHOT.zip</file>
+    </artifact>
 </artifacts>

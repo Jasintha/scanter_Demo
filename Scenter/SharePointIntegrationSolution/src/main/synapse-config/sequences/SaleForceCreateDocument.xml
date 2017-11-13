@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="SaleForceCreateDocument" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log>
+        <property name="message" value="*************Request came******"/>
+    </log>
+    <sequence key="salesForceRquestPropertySequence"/>
+    <property expression="json-eval($.sObjectName)" name="sObjectName" scope="default" type="STRING"/>
+    <property expression="json-eval($.docname)" name="docname" scope="default" type="STRING"/>
+    <salesforcerest.create configKey="saleforceInit">
+        <sObjectName>{$ctx:sObjectName}</sObjectName>
+        <fieldAndValue>{$ctx:docname}</fieldAndValue>
+    </salesforcerest.create>
+    <respond/>
+</sequence>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="saleforceUpdateDocument" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log>
+        <property name="message" value="************* Update Doucment******"/>
+    </log>
+    <sequence key="salesForceRquestPropertySequence"/>
+    <property expression="json-eval($.sObjectName)" name="sObjectName" scope="default" type="STRING"/>
+    <property expression="json-eval($.docid)" name="docid" scope="default" type="STRING"/>
+    <property expression="json-eval($.value)" name="value" scope="default" type="STRING"/>
+    <salesforcerest.update configKey="saleforceInit">
+        <sObjectName>{$ctx:sObjectName}</sObjectName>
+        <Id>{$ctx:docid}</Id>
+        <fieldAndValue>{$ctx:value}</fieldAndValue>
+    </salesforcerest.update>
+    <respond/>
+</sequence>
