@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/jde" name="JDEAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST GET" url-mapping="/bill/create">
+        <inSequence>
+            <sequence key="JDEcreateBIll"/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

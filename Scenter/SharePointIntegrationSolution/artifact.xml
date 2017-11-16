@@ -77,4 +77,13 @@
     <artifact name="saleforceUpdateDocument" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/saleforceUpdateDocument.xml</file>
     </artifact>
+    <artifact name="JDEcreateBIll" groupId="com.example.SharePointIntegrationSolution.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/JDEcreateBIll.xml</file>
+    </artifact>
+    <artifact name="JDEinit" groupId="com.example.SharePointIntegrationSolution.local-entry" version="1.0.0" type="synapse/local-entry" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/local-entries/JDEinit.xml</file>
+    </artifact>
+    <artifact name="JDEAPI" groupId="com.example.SharePointIntegrationSolution.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/JDEAPI.xml</file>
+    </artifact>
 </artifacts>

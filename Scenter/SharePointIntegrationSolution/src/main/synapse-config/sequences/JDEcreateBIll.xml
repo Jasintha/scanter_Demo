@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="JDEcreateBIll" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <property expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+    <property expression="json-eval($.accessToken)" name="accessToken" scope="default" type="STRING"/>
+    <property expression="json-eval($.payload)" name="payload" scope="default" type="STRING"/>
+    <jde.createBill configKey="JDEinit">
+        <payload>{$ctx:payload}</payload>
+    </jde.createBill>
+    <respond/>
+</sequence>
